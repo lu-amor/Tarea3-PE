@@ -35,8 +35,8 @@ data['quintil'] = data['ingreso_per_capita'].apply(clasificar_hogares)
 # Parte 3: Hogares que pertenecen al quintil superior
 hogares_quintil_superior = data[data["quintil"] == 5]
 
-""" print("Hogares que pertenecen al quintil superior:")
-print(hogares_quintil_superior) """
+print("Hogares que pertenecen al quintil superior:")
+print(hogares_quintil_superior)
 hogares_quintil_superior.to_csv("quintil_superior.csv", index=False) # Esto lo guarda en un archivo CSV
 
 # Parte 4: Tabla de frecuencias observadas por departamento

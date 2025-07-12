@@ -41,7 +41,7 @@ print("Media Central:", round(media1, 2))
 print("Media Semprún:", round(media2, 2))
 print("t =", round(t_stat, 4))
 print("Grados de libertad:", round(df, 2))
-print("p-valor:", round(p_value, 4))
+print("p-valor:", f"{p_value:.25f}")
 
 #PARTE 5: Resultado del test de hipotesis
 alpha = 0.05
